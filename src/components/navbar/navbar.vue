@@ -147,7 +147,7 @@ body{
   width: 7.344vw;
   height: 2.292vw;
   display: block;
-  background: url(~@/assets/navbar/header_logo.png) no-repeat;
+  background: url(~@/assets/home/navbar/header_logo.png) no-repeat;
   background-size: 100%;
   margin-right: 4.688vw;
 }

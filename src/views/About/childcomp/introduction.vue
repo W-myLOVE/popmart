@@ -57,7 +57,7 @@ export default {
     background: url(~@/assets/about/banner/banner.jpg) no-repeat;
     background-size: 100%;
     margin-bottom: 4.167vw;
-    margin-top:4.36vw;
+    margin-top:4.26vw;
 }
 .en_title{
   text-align: center;

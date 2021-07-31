@@ -4,10 +4,8 @@
    <div class="cn_title">媒体新闻</div>
    <div class="news_items">
      <a class="news_item" href="https://wap.peopleapp.com/article/rmh21260530/rmh21260530">
-      <img @mouseover="hover1" @mouseleave="move1"
-           src="~@/assets/home/news/news01.jpeg" alt="">
-      <div  ref="mask1" class="pop_window"
-            @mouseleave="move1">
+      <img src="~@/assets/home/news/news01.jpeg" alt="">
+      <div class="pop_window">
         <div class="news_title">浓情端午，责任消费</div>
         <div class="news_desc">
             泡泡玛特通过中国扶贫基金会善品公社平台，定点采购20余万元脱贫地区的产品作为员工端午福利，让员工在端午佳节来临之际，可享受原生态优质农特产品，也使脱贫农户增加了收入，助推脱贫增收。
@@ -17,9 +15,8 @@
      </a>
 
      <a class="news_item" href="https://finance.sina.com.cn/meeting/2021-06-10/doc-ikqciyzi8908845.shtml?cref=cj">   
-      <img @mouseover="hover2"  @mouseleave="move2"  src="~@/assets/home/news/news02.png" alt="">
-      <div ref="mask2" class="pop_window"
-            @mouseleave="move2">
+      <img src="~@/assets/home/news/news02.png" alt="">
+      <div class="pop_window">
         <div class="news_title">对话泡泡玛特王宁：盲盒只是表象</div>
         <div class="news_desc">
             “外界认为泡泡玛特立足是盲盒，实际上盲盒只是表象，本质是潮玩、是IP、是内容。”
@@ -29,9 +26,8 @@
      </a>
 
      <a class="news_item" href="">
-      <img @mouseover="hover3" @mouseleave="move3" src="~@/assets/home/news/news03.jpg" alt="">
-      <div ref="mask3" class="pop_window"
-           @mouseleave="move3">
+      <img src="~@/assets/home/news/news03.jpg" alt="">
+      <div class="pop_window">
                 <div class="news_title">泡泡玛特王宁：消费者在部落化，小品类也会诞生伟大公司</div>
         <div class="news_desc">
             中国企业过去都是在做理性的事情，即如何降低成本，而未来，应该更多关注做感性的事情，发挥设计和美的力量。
@@ -41,9 +37,8 @@
      </a>
 
      <a class="news_item" href="">
-      <img @mouseover="hover4" @mouseleave="move4" src="~@/assets/home/news/news04.jpeg" alt="">
-      <div ref="mask4" class="pop_window"
-           @mouseleave="move4">
+      <img src="~@/assets/home/news/news04.jpeg" alt="">
+      <div class="pop_window">
         <div class="news_title">推动“潮玩艺术化” 泡泡玛特打造高端收藏级产品</div>
         <div class="news_desc">
             MEGA珍藏系列是泡泡玛特重磅推出的高端产品线，旨在打造收藏级别的高端艺术家潮流玩具，定位潮流、艺术收藏领域高端玩家。
@@ -53,9 +48,8 @@
      </a>
 
      <a class="news_item" href="">
-      <img @mouseover="hover5" @mouseleave="move5" src="~@/assets/home/news/news05.png" alt="">
-      <div ref="mask5" class="pop_window"
-           @mouseleave.stop="move5">
+      <img src="~@/assets/home/news/news05.png" alt="">
+      <div class="pop_window">
         <div class="news_title">泡泡玛特“童”回千亿市值,新品表现持续亮眼</div>
         <div class="news_desc">
             2021年儿童节,“潮玩第一股”泡泡玛特盘中股价涨超4.6%,总市值达1020亿港币,重回千亿大关。
@@ -65,9 +59,8 @@
      </a>
 
      <a class="news_item" href="">
-      <img @mouseover="hover6" @mouseleave="move6" src="~@/assets/home/news/news06.jpg" alt="">
-      <div ref="mask6" class="pop_window"
-           @mouseleave="move6">
+      <img src="~@/assets/home/news/news06.jpg" alt="">
+      <div class="pop_window">
         <div class="news_title">传递美好到天涯海角，泡泡玛特入驻三亚·亚特兰蒂斯</div>
         <div class="news_desc">
             5月28日，泡泡玛特新店落户海南三亚·亚特兰蒂斯，潮玩品牌走进国际瞩目的旅游胜地。
@@ -85,66 +78,8 @@ export default {
   data () {
     return {
     }
-  },
-  methods: {
-    // 不好意思，接下来要写屎山了，为每个元素都使用一个不同的函数，突然想不到更好的解决方法
-    hover1:function(){
-      this.$refs.mask1.style.opacity=1
-      this.$refs.mask1.style.left=0
-      
-    },
-    move1: function(){
-      this.$refs.mask1.style.opacity=0
-      this.$refs.mask1.style.left=26.042+'vw'
-    },
-    hover2:function(){
-      this.$refs.mask2.style.opacity=1
-      this.$refs.mask2.style.left=0
-      
-    },
-    move2: function(){
-      this.$refs.mask2.style.opacity=0
-      this.$refs.mask2.style.left=26.042+'vw'
-    },
-    hover3:function(){
-      this.$refs.mask3.style.opacity=1
-      this.$refs.mask3.style.left=0
-      
-    },
-    move3: function(){
-      this.$refs.mask3.style.opacity=0
-      this.$refs.mask3.style.left=26.042+'vw'
-    },
-    hover4:function(){
-      this.$refs.mask4.style.opacity=1
-      this.$refs.mask4.style.left=0
-      
-    },
-    move4: function(){
-      this.$refs.mask4.style.opacity=0
-      this.$refs.mask4.style.left=26.042+'vw'
-    },
-    hover5:function(){
-      this.$refs.mask5.style.opacity=1
-      this.$refs.mask5.style.left=0
-      
-    },
-    move5: function(){
-      this.$refs.mask5.style.opacity=0
-      this.$refs.mask5.style.left=26.042+'vw'
-    },
-    hover6:function(){
-      this.$refs.mask6.style.opacity=1
-      this.$refs.mask6.style.left=0
-      
-    },
-    move6: function(){
-      this.$refs.mask6.style.opacity=0
-      this.$refs.mask6.style.left=26.042+'vw'
-    }
-  },
+  }
 }
-
 </script>
 <style scoped>
 .news_con{
@@ -260,5 +195,9 @@ export default {
 }
 .more:hover{
   color:#feba0a;
+}
+.news_item:hover .pop_window{
+  opacity: 1;
+  left: 0;
 }
 </style>
