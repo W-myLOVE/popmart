@@ -69,7 +69,7 @@
       </div>
      </a>
    </div>
-   <div class="more">MORE></div>
+   <router-link class="more" to="/news" >MORE></router-link>
  </div>
 </template>
 
@@ -184,6 +184,7 @@ export default {
   font-weight: 600;
 }
 .more{
+  text-decoration: none;
   cursor: pointer;
   display: flex;
   margin-bottom: 4.688vw;

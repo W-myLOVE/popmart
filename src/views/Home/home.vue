@@ -15,9 +15,9 @@ import carousel from '@/components/Carousel/carousel.vue'
 import videocon from '@/views/Home/childcomp/video_con.vue'
 import Company from './childcomp/company.vue'
 import Topsellinggoods from './childcomp/topsellinggoods.vue'
-import News from './childcomp/news.vue'
-import Footercon from '../../components/footer/footercon.vue'
-import Navbar from '../../components/navbar/navbar.vue'
+import News from './childcomp/homenews.vue'
+import Footercon from '@/components/footer/footercon.vue'
+import Navbar from '@/components/navbar/navbar.vue'
 export default {
   components: {
       carousel,

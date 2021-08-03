@@ -7,7 +7,7 @@
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/home'>新闻</router-link>
+       <router-link class="nav_con_item_a" to='/news'>新闻</router-link>
      </div>
 
      <div class="nav_con_item">
