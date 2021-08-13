@@ -11,11 +11,11 @@
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/home'>附近门店</router-link>
+       <router-link class="nav_con_item_a" to='/map'>附近门店</router-link>
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/home'>合作</router-link>
+       <router-link class="nav_con_item_a" to='/cooperation'>合作</router-link>
      </div>
 
      <div class="nav_con_item">
@@ -35,7 +35,7 @@
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/home'>海外市场</router-link>
+       <router-link class="nav_con_item_a" to='/oversea'>海外市场</router-link>
      </div>
 
 <!-- 有选择框的（2） -->
@@ -55,7 +55,7 @@
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/home'>投资者关系</router-link>
+       <router-link class="nav_con_item_a" to='/'>投资者关系</router-link>
      </div>
    </div>
    <div class="lang">
@@ -184,7 +184,7 @@ body{
 .select_box{
   display: none;
   position: absolute;
-  top: 4.979vw;
+  top: 4.75vw;
   left: 50%;
   transform: translateX(-50%);
   width: 12.188vw;

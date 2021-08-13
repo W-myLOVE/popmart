@@ -7,8 +7,10 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@amap/amap-vue": "^2.0.13",
     "core-js": "^3.6.5",
     "vue": "^3.0.0",
+    "vue-amap": "^0.5.10",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
