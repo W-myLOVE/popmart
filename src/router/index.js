@@ -5,6 +5,7 @@ import news from '@/views/News/news'
 import map from '@/views/Map/map'
 import cooperation from '@/views/Cooperation/cooperation'
 import oversea from '@/views/Oversea/oversea'
+import relations from '@/views/Relations/relations'
 
 const routes = [
   {
@@ -36,6 +37,11 @@ const routes = [
     path: '/oversea',
     name:'oversea',
     component: oversea
+  },  
+  {
+    path: '/relations',
+    name:'relations',
+    component: relations
   }
 ]
 

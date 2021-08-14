@@ -55,7 +55,7 @@
      </div>
 
      <div class="nav_con_item">
-       <router-link class="nav_con_item_a" to='/'>投资者关系</router-link>
+       <router-link class="nav_con_item_a" to='/relations'>投资者关系</router-link>
      </div>
    </div>
    <div class="lang">
